@@ -1,0 +1,390 @@
+/* General Utility Styles */
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container-content a {
+    color: #222;
+    font-weight: 800;
+}
+.container-content a:hover {
+    color: #222;
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+}
+
+.current-services .card-desc a {
+    font-weight: 600;
+}
+
+.current-services .tab-content .tab-pane .main-desc, 
+.fun-facts .figure-caption,
+.fun-facts ul li,
+.me-in-action ul,
+.what-now .next-link a {
+    font-weight: 300;
+}
+
+
+.fun-facts,
+.overview-cards,
+.me-in-action .channel-stats,
+.me-in-action .events-list {
+    color: #454545;
+}
+
+.btn-dark {
+    font-weight: 300;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+.btn-dark:hover {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+/* Navigation Styling */
+.navbar {
+    padding: 30px 0;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 2rem;
+    padding: 2rem 0;
+    letter-spacing: .1rem;
+}
+
+.navbar-toggler {
+    padding:0;
+    border-radius: 0;
+    border: none;
+    font-size: 14px;
+    margin-right: 2rem;
+}
+button:focus {
+    outline: none;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 2rem;
+    padding: 0;
+    letter-spacing: .1rem;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover, .navbar-expand-md .navbar-nav .nav-link.active {
+    color: #222;
+    border-bottom: 1px solid #222;
+}
+
+/* Header Styling */
+.lead {
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.overview-cards header h3.lead {
+    font-size: 1.7rem;
+}
+
+.main-text {
+    font-weight: 600;
+}
+
+.overview-cards header .main-text {
+    font-weight: 200;
+}
+
+/* Main Content Styling */
+.container-content {
+    padding: 185px 30px;
+}
+
+/* Home: Overview Section Styling */
+.scroll {
+    padding: 15px 0;
+}
+
+.home-overview-container {
+    padding: 12px 10px;
+}
+
+.highlights .highlight-card {
+    margin-bottom: 16px;
+}
+
+.highlights .highlight-card .highlight-content,
+.change-log-container table {
+    /* border-bottom: 1px solid #222;
+    padding-bottom: 16px; */
+    font-weight: 300;
+}
+
+.change-log-container {
+    font-size: 15px;
+}
+
+/* .highlights .highlight-card:last-child .highlight-content {
+    border-bottom: none;
+} */
+
+.highlights .highlight-card .highlight-icon {
+    margin-right: 1.25rem;
+}
+
+.current-services .service-container .col-md-6 {
+    padding-bottom: 26px;
+    margin-bottom: 26px;
+}
+
+.current-services  .card-desc {
+    font-weight: 300;
+}
+
+/* .current-services .nav-tabs {
+    border: none;
+} */
+
+.current-services .nav-tabs .nav-link {
+    font-weight: 400;
+    color: rgba(0,0,0,.5);
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    background-color: inherit;
+    border-radius: 0;
+}
+.current-services .nav-tabs .nav-link.active,
+.current-services .nav-tabs .nav-link:hover {
+    color: #222;
+    border-color: #dee2e6;
+}
+
+/* Me In Action Section */
+.me-in-action iframe {
+    border: 1px solid #eee;
+}
+
+/* Fun facts Section */
+.fun-facts .figure-caption {
+    font-size: 12px;
+}
+
+/* What Now Styling */
+.what-now .next-link {
+    font-size: 15px;
+}
+
+.what-now .next-link p {
+    font-weight: 200;
+    color: #454545;
+}
+
+/* Nav Footer Styling */
+.nav-footer .navbar {
+    padding: 1.15em 1em .7em;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.nav-footer .copyright {
+    padding: 10px 0;
+    color: #454545;
+}
+
+.nav-footer .copyright p {
+    margin-bottom: 0;
+}
+
+.nav-footer .socials {
+    padding: 0;
+}
+
+.nav-footer .socials a {
+    color: #222;
+    margin-right: .5rem;
+    padding: 10px 0;
+}
+.nav-footer .socials a:hover, .nav-footer .socials a:focus {
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+}
+
+/* XXL devices (1200px > */
+@media (min-width: 1200px) {
+
+    /* Button Styling */
+    .btn-lg {
+        padding: 1em 2.5em;
+        line-height: 1.1em;
+        font-size: 1.1rem;
+    }
+
+    /* Fun facts Section */
+    .fun-facts ul li {
+        font-size: 15px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and below) */
+@media (max-width: 1199px) {
+
+    /* Header Styling */
+    .lead {
+        font-size: 1.55rem;
+    }
+
+    .overview-cards header h3.lead {
+        font-size: 1.25rem;
+    }
+    
+    .main-text, p, .me-in-action, .current-services, .fun-facts {
+        font-size: 0.9rem;
+    }
+
+    /* Button Styling */
+    .btn-lg {
+        padding: 0.8em 1.8em;
+        font-size: 1rem;
+    }
+
+}
+
+/* Large devices (desktops, 992px and above) */
+@media (min-width: 992px) {
+
+    /* All Main Content Styling */
+    /* .container-content header .col-md-6 .img-fluid,
+    .home-overview-container .img-fluid {
+        transition: all 1s;
+    }
+    .container-content header .col-md-6 .img-fluid:hover,
+    .home-overview-container .img-fluid:hover {
+        transform: scale(1.1);
+    } */
+}
+
+/* Large devices (desktops, tablets, 991px and less */
+@media (max-width: 991px) {
+    /* All Main Content Styling */
+    .highlights .highlight-card {
+        margin-bottom: 0;
+    }
+}
+
+/* Medium Screen Styling: 768px < */
+@media (max-width: 767px) {
+
+    /* Navigation Styling */
+    .navbar {
+        padding: 25px 0;
+    }
+    .navbar-expand-md .navbar-nav .nav-item {
+        margin: 6px 0;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        margin-right: 0;
+        display: inline-block;
+        border-bottom: 1px solid transparent;
+    }
+    .navbar-collapse {
+        padding: 1.5rem 0 2rem;
+    }
+
+    /* All Main Content Styling */
+    .container-content header .col-md-6:last-child,
+    .home-overview-container .col-md-6:last-child,
+    .me-in-action .col-md-6:last-child {
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    /* Services Image Styling */
+    .current-services .img-fluid {
+        width: 100%;
+    }
+    
+    /* .container-content header .col-md-6 {
+        padding: 0;
+    } */
+
+}
+
+/* Medium Screen Styling: 768px > */
+@media (min-width: 768px) {
+    /* Utilities Styling */
+    .section-break {
+        height: 140px;
+        padding: 15px 0;
+    }
+
+    /* Navigation Styling */
+    .navbar-expand-md .navbar-nav {
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    .navbar-brand {
+        margin-right: 2rem;
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse {
+        padding: 2.5rem 0;
+    }
+
+    /* Nav Footer Styling */
+    .nav-footer .copyright {
+        padding-left: 16px;
+    }
+    
+    .nav-footer .socials {
+        padding-right: 16px;
+    }
+
+    /* Header Section Styling */
+    .container-content .banner-container {
+        padding: 0 0 65px 0;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and below) */
+@media (max-width: 576px) {
+    /* Utilities Styling */
+    .flex-xs-fill {
+        -ms-flex: 1 1 auto!important;
+        flex: 1 1 auto!important;
+    }
+
+    /* Navigation Styling */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-brand {
+        font-size: 18px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .navbar-toggler {
+        margin-right: 0;
+    }
+
+    /* All Main Content Styling */
+    .lead {
+        font-size: 1.15rem;
+    }
+
+    .main-text {
+        font-size: 0.85rem;
+    }
+
+    /* Button Styling */
+    .btn-lg {
+        padding: 0.8em 1.5em;
+        line-height: 1.25em;
+        font-size: 0.85rem;
+    }
+}
