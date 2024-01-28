@@ -239,7 +239,7 @@ button:focus {
         font-size: 1.25rem;
     }
     
-    .main-text, p, .me-in-action, .current-services, .fun-facts {
+    .main-text, p, .me-in-action, .current-services, .fun-facts, .change-log-container {
         font-size: 0.9rem;
     }
 
