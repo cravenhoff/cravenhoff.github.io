@@ -374,7 +374,8 @@ button:focus {
 
     /* All Main Content Styling */
     .lead {
-        font-size: 1.15rem;
+        font-size: 1.25rem;
+        font-weight: 200;
     }
 
     .main-text {
