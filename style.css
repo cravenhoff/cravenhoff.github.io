@@ -324,6 +324,14 @@ button:focus {
         margin-left: 2rem;
         margin-right: 0;
     }
+    
+    .fixed-md-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
 
     .navbar-brand {
         margin-right: 2rem;
