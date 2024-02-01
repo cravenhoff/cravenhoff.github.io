@@ -293,6 +293,10 @@ button:focus {
     }
 
     /* All Main Content Styling */
+    .container-content {
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
     .container-content header .col-md-6:last-child,
     .home-overview-container .col-md-6:last-child,
     .me-in-action .col-md-6:last-child {
@@ -324,7 +328,7 @@ button:focus {
         margin-left: 2rem;
         margin-right: 0;
     }
-    
+
     .fixed-md-top {
         position: fixed;
         top: 0;
