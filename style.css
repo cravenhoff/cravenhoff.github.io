@@ -181,6 +181,14 @@ button:focus {
     color: #454545;
 }
 
+/* Article Styling */
+.blog-container .article .col-lg-4 .main-text {
+    color: rgba(0,0,0,.5);
+}
+.blog-container .article ul li {
+    line-height: 1.25;
+}
+
 /* Nav Footer Styling */
 .nav-footer .navbar {
     padding: 1.15em 1em .7em;
