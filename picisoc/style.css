@@ -128,7 +128,7 @@ header a {
     padding: 80px 0;
 }
 
-.main-content-container p {
+.main-content-container p.lead {
     color: #898989;
 }
 
