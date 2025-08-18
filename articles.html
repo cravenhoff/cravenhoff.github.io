@@ -1,242 +1,771 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ARTICLES - CRYSTAL KEWE</title>
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,600;9..40,700;9..40,800&display=swap" rel="stylesheet">
-    <!-- Bootstrap Link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,600;9..40,700;9..40,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-light bg-white py-0 fixed-top" data-bs-theme="dark">
-        <!-- Brand -->
-        <a href="#" class="navbar-brand order-md-2 text-uppercase">Crystal Kewe</a>
-        <!-- Toggle Button -->
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks" aria-label="Toggle Navigation">
-            <span class="text-uppercase">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                </svg>
-            </span>
-        </button>
-        <!-- Menu Links -->
-        <div class="collapse navbar-collapse" id="navbarLinks">
-            <ul class="navbar-nav text-uppercase">
-                <li class="nav-item d-inline-flex d-md-block-flex justify-content-center">
-                    <a href="index.html" class="nav-link">Hello</a>
-                </li>
-                <li class="nav-item d-inline-flex d-md-block-flex justify-content-center">
-                    <a href="articles.html" class="nav-link active">Articles</a>
-                </li>
-                <li class="nav-item d-inline-flex d-md-block-flex justify-content-center">
-                    <a href="changelog.html" class="nav-link">Change Log</a>
-                </li>
-            </ul>
-        </div>
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-white py-0 fixed-top"
+      data-bs-theme="dark"
+    >
+      <!-- Brand -->
+      <a href="#" class="navbar-brand order-md-2 text-uppercase"
+        >Crystal Kewe</a
+      >
+      <!-- Toggle Button -->
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarLinks"
+        aria-controls="navbarLinks"
+        aria-label="Toggle Navigation"
+      >
+        <span class="text-uppercase">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </span>
+      </button>
+      <!-- Menu Links -->
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav text-uppercase">
+          <li
+            class="nav-item d-inline-flex d-md-block-flex justify-content-center"
+          >
+            <a href="index.html" class="nav-link">Hello</a>
+          </li>
+          <li
+            class="nav-item d-inline-flex d-md-block-flex justify-content-center"
+          >
+            <a href="articles.html" class="nav-link active">Articles</a>
+          </li>
+          <li
+            class="nav-item d-inline-flex d-md-block-flex justify-content-center"
+          >
+            <a href="changelog.html" class="nav-link">Change Log</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <div class="container-content container-md container-fluid">
-        <div class="blog-container">
-            <h1 class="display-5">Articles</h1>
-            <p class="main-text border-bottom pb-5">You can find all my digital journals here. I try to write regularly and publish articles on my journey, thought processes, resources and guides to interesting insights I come across that have been helpful. I hope something in here helps you on your journey - Namaste!</p>
-            <div class="articles pt-2">
-                <p><small>Note: Each article is collapsed by default. To expand the full-length of the article, toggle its visibility by clicking on the article title.</small></p>
-                <!-- Article 1 -->
-                <div class="article row py-4" id="decluttering-and-deep-work">
-                    <div class="col-lg-8">
-                        <div>
-                            <h5 class="mb-0">
-                                <a data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">03. How I Short Circuit Success</a>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
-                                </svg>
-                            </h5>
-                            <p><small>May 10, 2024</small></p>
-                            <figure class="figure">
-                                <img src="media/img/article-3-jonathan-klok-JS8RhWVk74Q-unsplash.jpg" class="img-fluid" alt="">
-                                <figcaption class="figure-caption">
-                                    <small>
-                                        Photo by <a href="https://unsplash.com/@mostly_brave?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonathan Klok</a> on <a href="https://unsplash.com/photos/gray-and-black-wooden-bridge-across-mountains-covered-by-trees-JS8RhWVk74Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-                                    </small>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="collapse" id="collapseExample1">
-                            <p class="pt-1">Whatever path I choose to pursue, I always look for people who are already where I want to be.</p>
-                            <p>I like to think that I'm lazy, intentionally lazy when it comes to pursuing big things in life.</p>
-                            <p>I hate reinventing the wheel (who does!) and putting myself through years of trial and error, when I can short circuit the path to success, by learning from others who’ve been where I want to be, and simply emulating them.</p>
-                            <p>I’m fallable to this type of thinking because I understand one potent spiritual law:</p>
-                            <p class="font-weight-bold">I am the accumulation of the people I choose to surround myself with.</p>    
-                            <p>Hence, I find the people who are already where I want to be, and I simply copy them. It’s as simple as that!</p>
-                            <p>I learn everything there is to know about them, I meditate and imagine myself having conversations with them about topics that interest me, I watch every video on the internet about them speaking, I follow through with things they recommend like books, articles, experiences; and overall, I have a burning desire deep within to connect with their energies and to raise my vibrational frequency and consciousness to their level.</p>
-                            <p>I try to feel the feeling of having already connected with them on a personal level, and I hold that reality in my mind’s eye as I practice visualising this scene as clearly as possible, as often as I can.</p>
-                            <p>Here’s an interesting thought to chew on that you might not have realised earlier:</p>
-                            <p class="font-weight-bold">Many people don't understand that what you want in life is already someone else’s life.</p>
-                            <p>You can either choose to do things alone, all your life, thinking you have all the answers, or you can search for people who've walked the path you're interested in and learn from them, acquire their knowledge, experience, wisdom and perception.</p>
-                            <p>Be smart. Be strategic. Identify the 20% that will get you 80% of the results you need.</p>
-                            <p>The best part about this that you'll find is that, the people who've "made it", are the most aproachable people you'll find anywhere, and when you humble yourself and go to them for guidance, they will receive you with open arms and do what they can to help you on your path.</p>
-                            <p class="font-weight-bold">Success does not care how long you take to arrive at your destination. But it will gladly reward you, the sooner you learn how to live!</p>
-                            <p>So as I’m writing this, I’m already pursuing the individuals who are exactly where I aim to be in the next 10, 20 and 30 years.</p>
-                            <p>Everyday, I’m studying the people I aspire to be like, who are aligned with the path I’m on, and I’m slowly but surely recalibrating, and reconfiguring my frequency to match theirs.</p>
-                            <p>Time is now my greatest asset, because in a few short years, I know I’ll be exactly where I intend to be.</p>    
-                            <p>Where are you headed and who are the people you can identify, are exactly where you want to be? Find them, and grow with them. </p> 
-                            <p>You’ll be astonished at the kind of progress you can make in a few short years!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <p class="main-text">Main Takeaways</p>
-                        <ul>
-                            <li><small>Success leaves clues, follow them.</small></li>
-                            <li><small>Don't reinvent the wheel when you can learn from someone experienced.</small></li>
-                            <li><small>Realise that the life you want is already someone else's life.</small></li>
-                            <li><small>Successful people love to help and are willing to be of service to you.</small></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Article 2 -->
-                <div class="article row py-4" id="building-a-great-foundation-in-your-20s">
-                    <div class="col-lg-8">
-                        <div>
-                            <h5 class="mb-0">
-                                <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">02. Building a Great Foundation in Your 20s</a>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
-                                </svg>
-                            </h5>
-                            <p><small>March 30, 2024</small></p>
-                            <figure class="figure">
-                                <img src="media/img/article-1-lighthouse-tyler-maddigan-unsplash.jpg" class="img-fluid" alt="">
-                                <figcaption class="figure-caption">
-                                    <small>Photo by <a href="https://unsplash.com/@maddigan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tyler Maddigan</a> on <a href="https://unsplash.com/photos/white-and-black-lighthouse-on-brown-rock-formation-near-body-of-water-during-daytime-Cq1JzLCyrTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="collapse" id="collapseExample2">
-                            <p class="pt-1">The older I get, the more I realize the importance of building a great foundation in my twenties, that my 40s and 50s can thrive on. I’ve seen that too many of us have been conditioned throughout our teens and twenties to think that our youth is a period where we excessively try to make as many mistakes as possible, live the atypical “care-free” life without consequence, and never dare to sit down and get serious and genuine about how we want to carve out a unique path ahead for ourselves.</p>
-                            <p>I believe that self-awareness and constantly asking the right but often difficult questions to reflect on our lives and journey, pushes us to seek out the relevant answers that will provide some direction to our young, inexperienced lives. </p>
-                            <p>I know there are some people reading this who will object to this, because they believe you’re only able to make better, more informed decisions in your 30s and 40s when you’ve gone through the mistakes of your 20s and you have a backlog of life experiences to look at. That would be true if we didn’t have so many examples of 40-year old’s who never changed after starting off their 20s on the wrong foot.</p>
-                            <h5 class="py-2">Experiment on the things that expand your life vs. pursuing regrettable mistakes</h5>
-                            <p>I think it’s become even more crucial to emphasize “deliberately” to young people that you can still experiment with so many rewarding things in life in your teens and 20s – like traveling the world, starting a business in your dorm room, tackling something that’s always terrified you that you’ve always wanted to try out – without repeating the mistakes of those who’ve gone ahead of you. And you can learn so much from the failures of others, then take the flawed advice of washed out 40 and 50-year old’s who think it’s better for you to kill your youth chasing after things that set you back in life and ultimately, destroy your potential.</p>
-                            <h5 class="py-2">Life is fragile - be intentional in designing your dream life</h5>
-                            <p>When you have the understanding that life is truly fragile and short, you make different choices – suddenly the insignificant things that seemed essential in the beginning, become completely irrelevant to you. 80 years or even 100 years, is not a long time on this planet; and there’s so much to do and experience before we say goodbye to this beautiful world. So why waste it all away struggling to make mistakes that increase the probability of failure, when you can right now, yes at this very moment, design your dream life. That’s the best part about life, that many people don’t realize – especially those of us in our 20s – that you can create a magnificent life; and all that power and decision rests solely on you, not on anyone else out there. I believe that when you start to realize this truth, you begin to regain your independence and self-confidence in your thinking and your ability to make choices for yourself.</p>
-                            <h5 class="py-2">The antidote to wandering - how to anchor yourself</h5>
-                            <p>A lot of us tend to drift to a group because we’re unsure of who we are and how we fit into the world around us. I certainly did that in my early teens and throughout a few pockets of my early 20s. But I’ve realized that, the antidote to clinging onto some group out there, or something that pulls us, is to become certain of ourselves, to regain clarity of who we are, what we believe in, and the things in life that burn in us to pursue them. An individual who is absolutely certain of this, will never feel lost, and will never find himself wandering. We often search for things outside of us because we lack fortitude and direction within ourselves. The man who is grounded internally, stands as strong and firm, and as reassuring as a lighthouse to the ships in rough seas relying on it.</p>
-                            <h5 class="py-2">Plant in your 20s to sow the life you want in your 40s-50s</h5>
-                            <p>I believe that although our 20s is just a number, and you can be wise as a 50-year-old, or as silly as a 5-year-old; above all, it represents a period of planting, from which we will reap the seeds we sow in our 40s and 50s. When you look at your young life that way, you start to question yourself about the kinds of seeds your planting today and what fruits or poison those seeds will reap in the future.</p>
-                            <p>There’s no reason why a 20-something year old cannot live a purpose-driven life. I find it absurd that many people look at me and wonder in awe how I’m able to be so matured and so in control of my life. I’ll tell you a fact that the latter is something I struggle with at times – because there will be periods throughout your life where you will be uncertain of yourself and of where you’re headed, and that’s alright, because it’s all a part of the journey of being human. But faith in your values and what you hold deep within to be true to you will guide you like the light house guides ships battling rough seas to safety. I’ve found personally that you don’t try to seek control over your life, because it will only elude you; it works the same way with happiness – you don’t seek it, it’s a state of being that finds you when you’re ready to receive it and embody it. Likewise, the only way you find control, is by designing your life in a way that allows control and direction to find you, to flow naturally into your life. When you do that, you stop chasing and you begin truly living. And the best lives are lived in the moment, right now, today – not tomorrow or some imaginary future, and certainly not in the past.</p>
-                            <h5 class="py-2">Build a strong foundation in your 20s today</h5>
-                            <p>A house that’s built with a strong foundation, will weather any storm, because it’s built to last. Your life works the same way – if you establish the wrong foundation in your youth, your life will be susceptible to destruction. But a life built on a strong foundation of youth, will not only stand the test of time, it will be a beacon of hope and inspiration to those around you, and it will allow even bigger things to thrive on it.</p>
-                            <p>Start today by deciding how you want your life to be designed. You are in control of this powerful process of creation. The universe is waiting for you to get clear with your instructions to it, and it will gladly serve you – it will conspire with you to attract and manifest the life of your dreams.</p>
-                            <p>I believe in you, and I’m rooting for you!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <p class="main-text">Main Takeaways</p>
-                        <ul>
-                            <li><small>Plant in your 20s - you'll reap the fruits of your labour in your 40s-50s</small></li>
-                            <li><small>You have the power to design the life of your dreams</small></li>
-                            <li><small>20 year olds can live a purpose-driven life</small></li>
-                            <li><small>Experiment on the things that expand your life vs. pursuing regrettable mistakes</small></li>
-                            <li><small>Be smart and don't reinvent the wheel - learn from the failures of others - and do better</small></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Article 3 -->
-                <div class="article row py-4" id="decluttering-and-deep-work">
-                    <div class="col-lg-8">
-                        <div>
-                            <h5 class="mb-0">
-                                <a data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">01. Decluttering and Deep Work: Simplifying My Life Down to the Necessities to Focus and Perform Better</a>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"/>
-                                </svg>
-                            </h5>
-                            <p><small>March 04, 2024</small></p>
-                            <figure class="figure">
-                                <img src="media/img/article1-alireza-ahmadi-unsplash.jpg" class="img-fluid" alt="">
-                                <figcaption class="figure-caption">
-                                    <small>
-                                        Photo by <a href="https://unsplash.com/@junioralireza?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alireza Ahmadi</a> on <a href="https://unsplash.com/photos/man-in-black-shirt-standing-on-hill-mKGnbGxSVb8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-                                    </small>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="collapse" id="collapseExample3">
-                            <p class="pt-1">I’m trying to simplify my life and I literally mean reducing the things I get to focus my time and energy on to just a handful of meaningful goals. It’s caused me to question, over and over again, over the last several weeks and months, how I can actually accomplish this and how my days need to look like for me to be successful at decluttering and drilling down on the activities that truly matter to me.</p>
-                            <p>I’m looking at a time period of nothing too far - for now, my focus is just on how I can ensure I set the right tone, direction and pace for this year.</p>
-                            <p>It’s been my experience that we often try to plan too far ahead that it takes away our time and energy from focusing on what we need to be doing to move closer to our monthly, quarterly and yearly goals. Hence, this time around, I’m taking a different strategy to goal setting and goal achieving, where I’m identifying just 2-3 things I want to focus solely on, and I’m giving myself at least a one year time period to work on them - which is a realistic timeframe to be working with.</p>
-                            <p class="font-weight-bold">It’s the perfect balance between not being too far ahead that the goal feels ‘out there’, and not too immediate that we feel the pressure to ‘get it done’ and achieved immediately.</p>
-                            <p>Planning this way, importantly gives me the feeling that achieving a few of my most important goals in 1 year is achievable, compared to trying to see too far ahead into the future that I come away with an empty feeling of my goals being just too far to see myself reaching them.</p> 
-                            <p>Don’t get me wrong, it’s not that I don’t plan ahead regarding where I want to be in the next 5-10, and even to be honest, 20-30 years. But I often like to see that sort of high-level planning as setting forth a clear roadmap on the most important life milestones I want to be able to tick off when I reach different periods of my life. Having said that, I still need to keep my foot grounded in the present moment and take intentional steps towards the things I need to be doing ‘now’ to meet my short-term goals over the next month, several quarters and the whole year.</p>
-                            <p>I think the most important thing about goal setting and planning is for us to get crystal clear (no pun intended) about the few things we want to make significant progress on.</p>
-                            <p>There will never be time to do a hundred different things, let alone try to ensure that we’re able to perform at a deep level to produce elite work. But we can make so much time and space for the handful of things that deserve our complete time and attention. Logically, these should be the things that move the needle forward for us and elevate our lives to the next stage where we focus on ever bigger and better things.</p>
-                            <p>I’ll end by saying that building the right systems, process and daily habits is critical in goal achieving.</p>
-                            <p class="font-weight-bold">Everyone has goals, but it’s not the goal that matters in the end, but the daily commitment and discipline you practice that guarantees your success.</p>
-                            <p>It’s all a numbers game! The more you focus consistently on a single goal, the better your odds are at achieving that goal. And by building the right daily routine and habits that help you to show up every day no matter what, you ensure that you always have your game on, regardless of what is happening in your life.</p>
-                            <p>People who succeed are not the ones who have infinite time, energy or motivation; they simply build the systems and habits that enable them to show up and get the job done every day, whether they feel like it or not. Success is all about consistent execution and keeping at something until you get it right. Momentum is key!</p>
-                            <p>I know where I want to be this time next year! Do you?</p>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <p class="main-text">Main Takeaways</p>
-                        <ul>
-                            <li><small>Have fewer ambitions and take on less, not more</small></li>
-                            <li><small>Focus on a time period of at least 1 year - you don't want your goals to be too far ahead it demotivates you, or too near it doesn't excite you</small></li>
-                            <li><small>Get crystal clear about the few things you want to be exceptional at all - and forget everything else</small></li>
-                            <li><small>It's not the goal that matters but the daily committment and systems you build to help you show up no matter what happens in life</small></li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="blog-container">
+        <h1 class="display-5">Articles</h1>
+        <p class="main-text border-bottom pb-5">
+          You can find all my digital journals here. I try to write regularly
+          and publish articles on my journey, thought processes, resources and
+          guides to interesting insights I come across that have been helpful. I
+          hope something in here helps you on your journey - Namaste!
+        </p>
+        <div class="articles pt-2">
+          <p>
+            <small
+              >Note: Each article is collapsed by default. To expand the
+              full-length of the article, toggle its visibility by clicking on
+              the article title.</small
+            >
+          </p>
+          <!-- Article 1 -->
+          <div class="article row py-4" id="decluttering-and-deep-work">
+            <div class="col-lg-8">
+              <div>
+                <h5 class="mb-0">
+                  <a
+                    data-toggle="collapse"
+                    href="#collapseExample1"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample1"
+                    >03. How I Short Circuit Success</a
+                  >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-arrow-down-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"
+                    />
+                  </svg>
+                </h5>
+                <p><small>May 10, 2024</small></p>
+                <figure class="figure">
+                  <img
+                    src="media/img/article-3-jonathan-klok-JS8RhWVk74Q-unsplash.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <figcaption class="figure-caption">
+                    <small>
+                      Photo by
+                      <a
+                        href="https://unsplash.com/@mostly_brave?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Jonathan Klok</a
+                      >
+                      on
+                      <a
+                        href="https://unsplash.com/photos/gray-and-black-wooden-bridge-across-mountains-covered-by-trees-JS8RhWVk74Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Unsplash</a
+                      >
+                    </small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="collapse" id="collapseExample1">
+                <p class="pt-1">
+                  Whatever path I choose to pursue, I always look for people who
+                  are already where I want to be.
+                </p>
+                <p>
+                  I like to think that I'm lazy, intentionally lazy when it
+                  comes to pursuing big things in life.
+                </p>
+                <p>
+                  I hate reinventing the wheel (who does!) and putting myself
+                  through years of trial and error, when I can short circuit the
+                  path to success, by learning from others who’ve been where I
+                  want to be, and simply emulating them.
+                </p>
+                <p>
+                  I’m fallable to this type of thinking because I understand one
+                  potent spiritual law:
+                </p>
+                <p class="font-weight-bold">
+                  I am the accumulation of the people I choose to surround
+                  myself with.
+                </p>
+                <p>
+                  Hence, I find the people who are already where I want to be,
+                  and I simply copy them. It’s as simple as that!
+                </p>
+                <p>
+                  I learn everything there is to know about them, I meditate and
+                  imagine myself having conversations with them about topics
+                  that interest me, I watch every video on the internet about
+                  them speaking, I follow through with things they recommend
+                  like books, articles, experiences; and overall, I have a
+                  burning desire deep within to connect with their energies and
+                  to raise my vibrational frequency and consciousness to their
+                  level.
+                </p>
+                <p>
+                  I try to feel the feeling of having already connected with
+                  them on a personal level, and I hold that reality in my mind’s
+                  eye as I practice visualising this scene as clearly as
+                  possible, as often as I can.
+                </p>
+                <p>
+                  Here’s an interesting thought to chew on that you might not
+                  have realised earlier:
+                </p>
+                <p class="font-weight-bold">
+                  Many people don't understand that what you want in life is
+                  already someone else’s life.
+                </p>
+                <p>
+                  You can either choose to do things alone, all your life,
+                  thinking you have all the answers, or you can search for
+                  people who've walked the path you're interested in and learn
+                  from them, acquire their knowledge, experience, wisdom and
+                  perception.
+                </p>
+                <p>
+                  Be smart. Be strategic. Identify the 20% that will get you 80%
+                  of the results you need.
+                </p>
+                <p>
+                  The best part about this that you'll find is that, the people
+                  who've "made it", are the most aproachable people you'll find
+                  anywhere, and when you humble yourself and go to them for
+                  guidance, they will receive you with open arms and do what
+                  they can to help you on your path.
+                </p>
+                <p class="font-weight-bold">
+                  Success does not care how long you take to arrive at your
+                  destination. But it will gladly reward you, the sooner you
+                  learn how to live!
+                </p>
+                <p>
+                  So as I’m writing this, I’m already pursuing the individuals
+                  who are exactly where I aim to be in the next 10, 20 and 30
+                  years.
+                </p>
+                <p>
+                  Everyday, I’m studying the people I aspire to be like, who are
+                  aligned with the path I’m on, and I’m slowly but surely
+                  recalibrating, and reconfiguring my frequency to match theirs.
+                </p>
+                <p>
+                  Time is now my greatest asset, because in a few short years, I
+                  know I’ll be exactly where I intend to be.
+                </p>
+                <p>
+                  Where are you headed and who are the people you can identify,
+                  are exactly where you want to be? Find them, and grow with
+                  them.
+                </p>
+                <p>
+                  You’ll be astonished at the kind of progress you can make in a
+                  few short years!
+                </p>
+              </div>
             </div>
+            <div class="col-lg-4">
+              <p class="main-text">Main Takeaways</p>
+              <ul>
+                <li><small>Success leaves clues, follow them.</small></li>
+                <li>
+                  <small
+                    >Don't reinvent the wheel when you can learn from someone
+                    experienced.</small
+                  >
+                </li>
+                <li>
+                  <small
+                    >Realise that the life you want is already someone else's
+                    life.</small
+                  >
+                </li>
+                <li>
+                  <small
+                    >Successful people love to help and are willing to be of
+                    service to you.</small
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Article 2 -->
+          <div
+            class="article row py-4"
+            id="building-a-great-foundation-in-your-20s"
+          >
+            <div class="col-lg-8">
+              <div>
+                <h5 class="mb-0">
+                  <a
+                    data-toggle="collapse"
+                    href="#collapseExample2"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample2"
+                    >02. Building a Great Foundation in Your 20s</a
+                  >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-arrow-down-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"
+                    />
+                  </svg>
+                </h5>
+                <p><small>March 30, 2024</small></p>
+                <figure class="figure">
+                  <img
+                    src="media/img/article-1-lighthouse-tyler-maddigan-unsplash.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <figcaption class="figure-caption">
+                    <small
+                      >Photo by
+                      <a
+                        href="https://unsplash.com/@maddigan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Tyler Maddigan</a
+                      >
+                      on
+                      <a
+                        href="https://unsplash.com/photos/white-and-black-lighthouse-on-brown-rock-formation-near-body-of-water-during-daytime-Cq1JzLCyrTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Unsplash</a
+                      ></small
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="collapse" id="collapseExample2">
+                <p class="pt-1">
+                  The older I get, the more I realize the importance of building
+                  a great foundation in my twenties, that my 40s and 50s can
+                  thrive on. I’ve seen that too many of us have been conditioned
+                  throughout our teens and twenties to think that our youth is a
+                  period where we excessively try to make as many mistakes as
+                  possible, live the atypical “care-free” life without
+                  consequence, and never dare to sit down and get serious and
+                  genuine about how we want to carve out a unique path ahead for
+                  ourselves.
+                </p>
+                <p>
+                  I believe that self-awareness and constantly asking the right
+                  but often difficult questions to reflect on our lives and
+                  journey, pushes us to seek out the relevant answers that will
+                  provide some direction to our young, inexperienced lives.
+                </p>
+                <p>
+                  I know there are some people reading this who will object to
+                  this, because they believe you’re only able to make better,
+                  more informed decisions in your 30s and 40s when you’ve gone
+                  through the mistakes of your 20s and you have a backlog of
+                  life experiences to look at. That would be true if we didn’t
+                  have so many examples of 40-year old’s who never changed after
+                  starting off their 20s on the wrong foot.
+                </p>
+                <h5 class="py-2">
+                  Experiment on the things that expand your life vs. pursuing
+                  regrettable mistakes
+                </h5>
+                <p>
+                  I think it’s become even more crucial to emphasize
+                  “deliberately” to young people that you can still experiment
+                  with so many rewarding things in life in your teens and 20s –
+                  like traveling the world, starting a business in your dorm
+                  room, tackling something that’s always terrified you that
+                  you’ve always wanted to try out – without repeating the
+                  mistakes of those who’ve gone ahead of you. And you can learn
+                  so much from the failures of others, then take the flawed
+                  advice of washed out 40 and 50-year old’s who think it’s
+                  better for you to kill your youth chasing after things that
+                  set you back in life and ultimately, destroy your potential.
+                </p>
+                <h5 class="py-2">
+                  Life is fragile - be intentional in designing your dream life
+                </h5>
+                <p>
+                  When you have the understanding that life is truly fragile and
+                  short, you make different choices – suddenly the insignificant
+                  things that seemed essential in the beginning, become
+                  completely irrelevant to you. 80 years or even 100 years, is
+                  not a long time on this planet; and there’s so much to do and
+                  experience before we say goodbye to this beautiful world. So
+                  why waste it all away struggling to make mistakes that
+                  increase the probability of failure, when you can right now,
+                  yes at this very moment, design your dream life. That’s the
+                  best part about life, that many people don’t realize –
+                  especially those of us in our 20s – that you can create a
+                  magnificent life; and all that power and decision rests solely
+                  on you, not on anyone else out there. I believe that when you
+                  start to realize this truth, you begin to regain your
+                  independence and self-confidence in your thinking and your
+                  ability to make choices for yourself.
+                </p>
+                <h5 class="py-2">
+                  The antidote to wandering - how to anchor yourself
+                </h5>
+                <p>
+                  A lot of us tend to drift to a group because we’re unsure of
+                  who we are and how we fit into the world around us. I
+                  certainly did that in my early teens and throughout a few
+                  pockets of my early 20s. But I’ve realized that, the antidote
+                  to clinging onto some group out there, or something that pulls
+                  us, is to become certain of ourselves, to regain clarity of
+                  who we are, what we believe in, and the things in life that
+                  burn in us to pursue them. An individual who is absolutely
+                  certain of this, will never feel lost, and will never find
+                  himself wandering. We often search for things outside of us
+                  because we lack fortitude and direction within ourselves. The
+                  man who is grounded internally, stands as strong and firm, and
+                  as reassuring as a lighthouse to the ships in rough seas
+                  relying on it.
+                </p>
+                <h5 class="py-2">
+                  Plant in your 20s to sow the life you want in your 40s-50s
+                </h5>
+                <p>
+                  I believe that although our 20s is just a number, and you can
+                  be wise as a 50-year-old, or as silly as a 5-year-old; above
+                  all, it represents a period of planting, from which we will
+                  reap the seeds we sow in our 40s and 50s. When you look at
+                  your young life that way, you start to question yourself about
+                  the kinds of seeds your planting today and what fruits or
+                  poison those seeds will reap in the future.
+                </p>
+                <p>
+                  There’s no reason why a 20-something year old cannot live a
+                  purpose-driven life. I find it absurd that many people look at
+                  me and wonder in awe how I’m able to be so matured and so in
+                  control of my life. I’ll tell you a fact that the latter is
+                  something I struggle with at times – because there will be
+                  periods throughout your life where you will be uncertain of
+                  yourself and of where you’re headed, and that’s alright,
+                  because it’s all a part of the journey of being human. But
+                  faith in your values and what you hold deep within to be true
+                  to you will guide you like the light house guides ships
+                  battling rough seas to safety. I’ve found personally that you
+                  don’t try to seek control over your life, because it will only
+                  elude you; it works the same way with happiness – you don’t
+                  seek it, it’s a state of being that finds you when you’re
+                  ready to receive it and embody it. Likewise, the only way you
+                  find control, is by designing your life in a way that allows
+                  control and direction to find you, to flow naturally into your
+                  life. When you do that, you stop chasing and you begin truly
+                  living. And the best lives are lived in the moment, right now,
+                  today – not tomorrow or some imaginary future, and certainly
+                  not in the past.
+                </p>
+                <h5 class="py-2">
+                  Build a strong foundation in your 20s today
+                </h5>
+                <p>
+                  A house that’s built with a strong foundation, will weather
+                  any storm, because it’s built to last. Your life works the
+                  same way – if you establish the wrong foundation in your
+                  youth, your life will be susceptible to destruction. But a
+                  life built on a strong foundation of youth, will not only
+                  stand the test of time, it will be a beacon of hope and
+                  inspiration to those around you, and it will allow even bigger
+                  things to thrive on it.
+                </p>
+                <p>
+                  Start today by deciding how you want your life to be designed.
+                  You are in control of this powerful process of creation. The
+                  universe is waiting for you to get clear with your
+                  instructions to it, and it will gladly serve you – it will
+                  conspire with you to attract and manifest the life of your
+                  dreams.
+                </p>
+                <p>I believe in you, and I’m rooting for you!</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <p class="main-text">Main Takeaways</p>
+              <ul>
+                <li>
+                  <small
+                    >Plant in your 20s - you'll reap the fruits of your labour
+                    in your 40s-50s</small
+                  >
+                </li>
+                <li>
+                  <small
+                    >You have the power to design the life of your dreams</small
+                  >
+                </li>
+                <li>
+                  <small>20 year olds can live a purpose-driven life</small>
+                </li>
+                <li>
+                  <small
+                    >Experiment on the things that expand your life vs. pursuing
+                    regrettable mistakes</small
+                  >
+                </li>
+                <li>
+                  <small
+                    >Be smart and don't reinvent the wheel - learn from the
+                    failures of others - and do better</small
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Article 3 -->
+          <div class="article row py-4" id="decluttering-and-deep-work">
+            <div class="col-lg-8">
+              <div>
+                <h5 class="mb-0">
+                  <a
+                    data-toggle="collapse"
+                    href="#collapseExample3"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample3"
+                    >01. Decluttering and Deep Work: Simplifying My Life Down to
+                    the Necessities to Focus and Perform Better</a
+                  >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-arrow-down-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4"
+                    />
+                  </svg>
+                </h5>
+                <p><small>March 04, 2024</small></p>
+                <figure class="figure">
+                  <img
+                    src="media/img/article1-alireza-ahmadi-unsplash.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <figcaption class="figure-caption">
+                    <small>
+                      Photo by
+                      <a
+                        href="https://unsplash.com/@junioralireza?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Alireza Ahmadi</a
+                      >
+                      on
+                      <a
+                        href="https://unsplash.com/photos/man-in-black-shirt-standing-on-hill-mKGnbGxSVb8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                        >Unsplash</a
+                      >
+                    </small>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="collapse" id="collapseExample3">
+                <p class="pt-1">
+                  I’m trying to simplify my life and I literally mean reducing
+                  the things I get to focus my time and energy on to just a
+                  handful of meaningful goals. It’s caused me to question, over
+                  and over again, over the last several weeks and months, how I
+                  can actually accomplish this and how my days need to look like
+                  for me to be successful at decluttering and drilling down on
+                  the activities that truly matter to me.
+                </p>
+                <p>
+                  I’m looking at a time period of nothing too far - for now, my
+                  focus is just on how I can ensure I set the right tone,
+                  direction and pace for this year.
+                </p>
+                <p>
+                  It’s been my experience that we often try to plan too far
+                  ahead that it takes away our time and energy from focusing on
+                  what we need to be doing to move closer to our monthly,
+                  quarterly and yearly goals. Hence, this time around, I’m
+                  taking a different strategy to goal setting and goal
+                  achieving, where I’m identifying just 2-3 things I want to
+                  focus solely on, and I’m giving myself at least a one year
+                  time period to work on them - which is a realistic timeframe
+                  to be working with.
+                </p>
+                <p class="font-weight-bold">
+                  It’s the perfect balance between not being too far ahead that
+                  the goal feels ‘out there’, and not too immediate that we feel
+                  the pressure to ‘get it done’ and achieved immediately.
+                </p>
+                <p>
+                  Planning this way, importantly gives me the feeling that
+                  achieving a few of my most important goals in 1 year is
+                  achievable, compared to trying to see too far ahead into the
+                  future that I come away with an empty feeling of my goals
+                  being just too far to see myself reaching them.
+                </p>
+                <p>
+                  Don’t get me wrong, it’s not that I don’t plan ahead regarding
+                  where I want to be in the next 5-10, and even to be honest,
+                  20-30 years. But I often like to see that sort of high-level
+                  planning as setting forth a clear roadmap on the most
+                  important life milestones I want to be able to tick off when I
+                  reach different periods of my life. Having said that, I still
+                  need to keep my foot grounded in the present moment and take
+                  intentional steps towards the things I need to be doing ‘now’
+                  to meet my short-term goals over the next month, several
+                  quarters and the whole year.
+                </p>
+                <p>
+                  I think the most important thing about goal setting and
+                  planning is for us to get crystal clear (no pun intended)
+                  about the few things we want to make significant progress on.
+                </p>
+                <p>
+                  There will never be time to do a hundred different things, let
+                  alone try to ensure that we’re able to perform at a deep level
+                  to produce elite work. But we can make so much time and space
+                  for the handful of things that deserve our complete time and
+                  attention. Logically, these should be the things that move the
+                  needle forward for us and elevate our lives to the next stage
+                  where we focus on ever bigger and better things.
+                </p>
+                <p>
+                  I’ll end by saying that building the right systems, process
+                  and daily habits is critical in goal achieving.
+                </p>
+                <p class="font-weight-bold">
+                  Everyone has goals, but it’s not the goal that matters in the
+                  end, but the daily commitment and discipline you practice that
+                  guarantees your success.
+                </p>
+                <p>
+                  It’s all a numbers game! The more you focus consistently on a
+                  single goal, the better your odds are at achieving that goal.
+                  And by building the right daily routine and habits that help
+                  you to show up every day no matter what, you ensure that you
+                  always have your game on, regardless of what is happening in
+                  your life.
+                </p>
+                <p>
+                  People who succeed are not the ones who have infinite time,
+                  energy or motivation; they simply build the systems and habits
+                  that enable them to show up and get the job done every day,
+                  whether they feel like it or not. Success is all about
+                  consistent execution and keeping at something until you get it
+                  right. Momentum is key!
+                </p>
+                <p>I know where I want to be this time next year! Do you?</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <p class="main-text">Main Takeaways</p>
+              <ul>
+                <li>
+                  <small>Have fewer ambitions and take on less, not more</small>
+                </li>
+                <li>
+                  <small
+                    >Focus on a time period of at least 1 year - you don't want
+                    your goals to be too far ahead it demotivates you, or too
+                    near it doesn't excite you</small
+                  >
+                </li>
+                <li>
+                  <small
+                    >Get crystal clear about the few things you want to be
+                    exceptional at all - and forget everything else</small
+                  >
+                </li>
+                <li>
+                  <small
+                    >It's not the goal that matters but the daily committment
+                    and systems you build to help you show up no matter what
+                    happens in life</small
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Fixed Bottom Nav/Footer -->
     <div class="nav-footer">
-        <nav class="navbar fixed-bottom navbar-light bg-light flex-column flex-md-row">
-            <div class="copyright">
-                <p class="text-center text-md-left">All content &copy; 2024 - Current Crystal Kewe and respective copyright holders.</p>
-            </div>
-            <div class="socials">
-                <!-- GitHub -->
-                <a href="https://github.com/cravenhoff" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                    </svg>
-                </a>
-                <!-- Linkedin -->
-                <a href="https://www.linkedin.com/in/crystal-kewe-b7382a185/" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 30 30">
-                        <path d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"></path>
-                    </svg>
-                </a>
-                <!-- YouTube -->
-                <a href="https://www.youtube.com/@crystalkewe" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
-                    </svg>
-                </a>
-                <!-- Substack -->
-                <a href="https://crystalkewe.substack.com/" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-substack" viewBox="0 0 16 16">
-                        <path d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"/>
-                    </svg>
-                </a>
-            </div>
-        </nav>
+      <nav
+        class="navbar fixed-bottom navbar-light bg-light flex-column flex-md-row"
+      >
+        <div class="copyright">
+          <p class="text-center text-md-left">
+            All content &copy; 2024 - Current Crystal Kewe and respective
+            copyright holders.
+          </p>
+        </div>
+        <div class="socials">
+          <!-- GitHub -->
+          <a href="https://github.com/cravenhoff" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-github"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+              />
+            </svg>
+          </a>
+          <!-- Linkedin -->
+          <a
+            href="https://www.linkedin.com/in/crystal-kewe-b7382a185/"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="20"
+              height="20"
+              viewBox="0 0 30 30"
+            >
+              <path
+                d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"
+              ></path>
+            </svg>
+          </a>
+          <!-- YouTube -->
+          <a href="https://www.youtube.com/@crystalkewe" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-youtube"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+              />
+            </svg>
+          </a>
+          <!-- Substack -->
+          <a href="https://crystalkewe.substack.com/" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-substack"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
     </div>
 
     <!-- Bootstrap JS Links -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
